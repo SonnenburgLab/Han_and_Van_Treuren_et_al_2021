@@ -1,0 +1,13 @@
+name: metabolomics-paper
+dependencies:
+  - python=3.7
+  - jupyterlab=1.1.4
+  - matplotlib=3.1.0
+  - numpy=1.18.1
+  - openpyxl=2.6.0
+  - pandas=0.25.3
+  - pytest=5.3.0
+  - scikit-learn=0.21.3
+  - seaborn=0.10.0
+  - statsmodels=0.10.1
+  - xlrd=1.2.0

@@ -1,0 +1,158 @@
+Varibaculum cambriense AB12_3 BEI HM-1190
+Bifidobacterium bifidum DSMZ 20456
+Bifidobacterium dentium ATCC 27678
+Bifidobacterium catenulatum DSMZ 16992
+Bifidobacterium gallicum DSMZ 20093
+Bifidobacterium pseudocatenulatum DSMZ 20438
+Bifidobacterium adolescentis L2-32
+Bifidobacterium breve DSMZ 20213
+Bifidobacterium breve UCC2003
+Bifidobacterium infantis ATCC 15697
+Bifidobacterium longum NCC 2705
+Bifidobacterium longum reuter ATCC 55813
+Eggerthella lenta DSMZ 2243
+Slackia exigua ATCC 700122
+Collinsella aerofaciens ATCC 25986
+Atopobium parvulum CC14Z BEI HM-1035
+Desulfovibrio piger ATCC 29098 M1
+Desulfovibrio piger ATCC 29098 M2
+Proteus penneri ATCC 35198
+Providencia stuartii ATCC 25827
+Providencia rustigianii DSM 4541
+Citrobacter portucalensis 30_2  BEI HM-34
+Citrobacter portucalensis 4_7_47CFAA BEI HM-299
+Enterobacter cancerogenus ATCC 35316
+Citrobacter youngae ATCC 29220
+Escherichia coli MG-1655 ATCC 7000926
+Bacteroides plebeius DSMZ 17135
+Bacteroides coprophilus DSMZ 18228
+Bacteroides vulgatus ATCC 8482
+Bacteroides vulgatus CL09T03C04 BEI HM-720
+Bacteroides dorei 5_1_36/D4 BEI HM-29
+Bacteroides dorei CL02T00C15 BEI HM-717
+Bacteroides dorei CL02T12C06 BEI HM-719
+Bacteroides dorei CL03T12C01 BEI HM-718
+Bacteroides dorei DSMZ 17855
+Bacteroides sp. 9_1_42FAA BEI HM-27
+Bacteroides sp. 4_1_36 BEI HM-258
+Bacteroides sp. D20 BEI HM-189
+Bacteroides uniformis ATCC 8492
+Bacteroides cellulosilyticus CL02T12C19 BEI HM-726
+Bacteroides cellulosilyticus DSMZ 14838
+Bacteroides intestinalis DSMZ 17393
+Bacteroides stercoris ATCC 43183
+Bacteroides stercoris CC31F BEI HM-1036
+Bacteroides eggerthii ATCC 27754
+Bacteroides salyersiae CL02T12C01 BEI HM-725
+Bacteroides fragilis 3_1_12 BEI HM-20
+Bacteroides fragilis CL03T12C07 BEI HM-714
+Bacteroides fragilis CL05T00C42 BEI HM-711
+Bacteroides fragilis CL07T12C05 BEI HM-710
+Bacteroides fragilis NCTC 9343
+Bacteroides sp. 2_1_16 BEI HM-58
+Bacteroides finegoldii DSMZ 17565
+Bacteroides finegoldii CL09T03C10 BEI HM-727
+Bacteroides sp. 1_1_6 BEI HM-23
+Bacteroides thetaiotaomicron 3730
+Bacteroides thetaiotaomicron 3731
+Bacteroides thetaiotaomicron 633
+Bacteroides thetaiotaomicron 7330
+Bacteroides thetaiotaomicron 7853
+Bacteroides thetaiotaomicron 8702
+Bacteroides thetaiotaomicron 8713
+Bacteroides thetaiotaomicron 8736
+Bacteroides thetaiotaomicron 940
+Bacteroides thetaiotaomicron VPI 5482
+Bacteroides ovatus 3_8_47FAA BEI HM-222
+Bacteroides ovatus ATCC 8483
+Bacteroides sp. 1_1_30 BEI HM-22
+Bacteroides sp. 2_1_22 BEI HM-18
+Bacteroides thetaiotaomicron wh302
+Bacteroides thetaiotaomicron wh305
+Bacteroides xylanoisolvens XB1A DSMZ 18836
+Bacteroides caccae ATCC 43185
+Bacteroides caccae CL03T12C61 BEI HM-728
+Parabacteroides goldsteinii CC87F BEI HM-1050
+Parabacteroides johnsonii DSMZ 18315
+Parabacteroides merdae ATCC 43184
+Parabacteroides merdae CL09T00C40 BEI HM-729
+Bacteroides sp. 3_1_19 BEI HM-19
+Parabacteroides distasonis ATCC 8503
+Parabacteroides sp. D13 BEI HM-77
+Anaerococcus lactolyticus CC31C BEI HM-1034
+Holdemanella biformis DSMZ 3989
+Holdemania filiformis DSMZ 12042
+Catenibacterium mitsuokai DSMZ 15897
+Bacillus sp. 7_6_55CFAA_CT2 BEI HM-231
+Facklamia sp. HGF4 BEI HM-289
+Granulicatella adiacens DSMZ 9848
+Enterococcus faecalis TX1322 BEI HM-202
+Enterococcus faecalis TX2137 BEI HM-432
+Enterococcus faecium ERV165 BEI HM-970
+Enterococcus faecium TX1330 BEI HM-204
+Lactobacillus rhamnosus GG ATCC 53103
+Lactobacillus rhamnosus LMS2-1 BEI HM-106
+Lactobacillus paracasei subspecies paracasei ATCC BAA-52
+Lactobacillus reuteri CF48-3A BEI HM-102
+Lactobacillus reuteri F275 ATCC 23272
+Lactobacillus plantarum ATCC BAA-793
+Lactobacillus ruminis ATCC 25644
+Streptococcus thermophilus LMD-9 ATCC 19258
+Streptococcus parasanguinis CC87K BEI HM-1060
+Lactococcus lactis DSMZ 20729
+Peptostreptococcus sp. CC14N BEI HM-1051
+Intestinibacter bartlettii DSM 16795
+Fusobacterium nucleatum CTI-2 BEI HM-993
+Fusobacterium nucleatum subsp. animalis D11 BEI HM-75
+Fusobacterium ulcerans 12-1B BEI HM-57
+Acidaminococcus fermentans DSMZ 20731
+Acidaminococcus intestini D21 BEI HM-81
+Acidaminococcus sp. HPA0509 BEI HM-853
+Mitsuokella multacida DSMZ 20544
+Veillonella sp. HPA0037 BEI HM-850
+Clostridium sporogenes ATCC 15579
+Clostridium cadaveris CC40_001C BEI HM-1039
+Clostridium cadaveris CC44_001G BEI HM-1040
+Clostridium cadaveris CC88A BEI HM-1041
+Clostridium perfringens WAL-14572 BEI HM-310
+Ruminococcus bromii ATCC 27255
+Clostridium leptum DSMZ 753
+Subdoligranulum variabile DSMZ 15176
+Anaerotruncus colihominis DSMZ 17241
+Eubacterium siraeum DSMZ 15702
+Anaerostipes caccae DSMZ 14662
+Anaerostipes sp. 3_2_56FAA BEI HM-220 904a
+Anaerostipes sp. 3_2_56FAA BEI HM-220 904b
+Eubacterium eligens DSMZ 3376
+Clostridium asparagiforme DSMZ 15981
+Eubacterium ventriosum DSMZ 3988
+Dorea longicatena DSMZ 13814
+Clostridium scindens ATCC 35704
+Lachnospiraceae sp. 2_1_58FAA BEI HM-154
+Ruminococcus gnavus ATCC 29149
+Ruminococcus gnavus CC55_001C BEI HM-1056
+Clostridium hylemonae DSMZ 15053
+Clostridium hathewayi WAL-18680 BEI HM-308
+Hungatella hathewayi DSM 13479
+Clostridium saccharolyticum WM1 DSMZ 2544
+Clostridium aldenense WAL-18727 BEI HM-307
+Clostridium symbiosum BEI HM-309
+Clostridium symbiosum WAL 14673 BEI HM-319
+Clostridium bolteae ATCC BAA-613
+Clostridium bolteae CC43_001B BEI HM-1038
+Clostridium bolteae WAL-14578 BEI HM-318
+Clostridium citroniae WAL-17108 BEI HM-315
+Clostridium clostridioforme 2_1_49FAA BEI HM-306
+Clostridium clostridioforme WAL-7855 BEI HM-317
+Lachnospiraceae sp. 1_4_56FAA BEI HM-161
+Ruminococcus torques ATCC 27756
+Eubacterium rectale ATCC 33656
+Coprococcus comes ATCC 27758
+Dorea formicigenerans ATCC 27755
+Coprococcus sp. HPP0048 BEI HM-794
+Clostridiales sp. 3_1_39B/D5 BEI HM-84
+Tyzzerella nexilis DSM 1787
+Marvinbryantia formatexigens DSMZ 14469
+Blautia hansenii DSMZ 20583
+Blautia producta DMSZ 2950
+Ruminococcus lactaris CC59_002D BEI HM-1057
