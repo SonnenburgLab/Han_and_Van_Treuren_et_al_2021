@@ -1,0 +1,159 @@
+taxonomy	phylum	disp_name
+Acidaminococcus fermentans DSMZ 20731	Firmicutes	dn000
+Acidaminococcus intestini D21 BEI HM-81	Firmicutes	dn001
+Acidaminococcus sp. HPA0509 BEI HM-853	Firmicutes	dn002
+Anaerococcus lactolyticus CC31C BEI HM-1034	Firmicutes	dn003
+Anaerostipes caccae DSMZ 14662	Firmicutes	dn004
+Anaerostipes sp. 3_2_56FAA BEI HM-220 904a	Firmicutes	dn005
+Anaerostipes sp. 3_2_56FAA BEI HM-220 904b	Firmicutes	dn006
+Anaerotruncus colihominis DSMZ 17241	Firmicutes	dn007
+Atopobium parvulum CC14Z BEI HM-1035	Actinobacteria	dn008
+Bacillus sp. 7_6_55CFAA_CT2 BEI HM-231	Firmicutes	dn009
+Bacteroides caccae ATCC 43185	Bacteroidetes	dn010
+Bacteroides caccae CL03T12C61 BEI HM-728	Bacteroidetes	dn011
+Bacteroides cellulosilyticus CL02T12C19 BEI HM-726	Bacteroidetes	dn012
+Bacteroides cellulosilyticus DSMZ 14838	Bacteroidetes	dn013
+Bacteroides coprophilus DSMZ 18228	Bacteroidetes	dn014
+Bacteroides dorei 5_1_36/D4 BEI HM-29	Bacteroidetes	dn015
+Bacteroides dorei CL02T00C15 BEI HM-717	Bacteroidetes	dn016
+Bacteroides dorei CL02T12C06 BEI HM-719	Bacteroidetes	dn017
+Bacteroides dorei CL03T12C01 BEI HM-718	Bacteroidetes	dn018
+Bacteroides dorei DSMZ 17855	Bacteroidetes	dn019
+Bacteroides eggerthii ATCC 27754	Bacteroidetes	dn020
+Bacteroides finegoldii CL09T03C10 BEI HM-727	Bacteroidetes	dn021
+Bacteroides finegoldii DSMZ 17565	Bacteroidetes	dn022
+Bacteroides fragilis 3_1_12 BEI HM-20	Bacteroidetes	dn023
+Bacteroides fragilis CL03T12C07 BEI HM-714	Bacteroidetes	dn024
+Bacteroides fragilis CL05T00C42 BEI HM-711	Bacteroidetes	dn025
+Bacteroides fragilis CL07T12C05 BEI HM-710	Bacteroidetes	dn026
+Bacteroides fragilis NCTC 9343	Bacteroidetes	dn027
+Bacteroides intestinalis DSMZ 17393	Bacteroidetes	dn028
+Bacteroides ovatus 3_8_47FAA BEI HM-222	Bacteroidetes	dn029
+Bacteroides ovatus ATCC 8483	Bacteroidetes	dn030
+Bacteroides plebeius DSMZ 17135	Bacteroidetes	dn031
+Bacteroides salyersiae CL02T12C01 BEI HM-725	Bacteroidetes	dn032
+Bacteroides sp. 1_1_30 BEI HM-22	Bacteroidetes	dn033
+Bacteroides sp. 1_1_6 BEI HM-23	Bacteroidetes	dn034
+Bacteroides sp. 2_1_16 BEI HM-58	Bacteroidetes	dn035
+Bacteroides sp. 2_1_22 BEI HM-18	Bacteroidetes	dn036
+Bacteroides sp. 3_1_19 BEI HM-19	Bacteroidetes	dn037
+Bacteroides sp. 4_1_36 BEI HM-258	Bacteroidetes	dn038
+Bacteroides sp. 9_1_42FAA BEI HM-27	Bacteroidetes	dn039
+Bacteroides sp. D20 BEI HM-189	Bacteroidetes	dn040
+Bacteroides stercoris ATCC 43183	Bacteroidetes	dn041
+Bacteroides stercoris CC31F BEI HM-1036	Bacteroidetes	dn042
+Bacteroides thetaiotaomicron 3730	Bacteroidetes	dn043
+Bacteroides thetaiotaomicron 3731	Bacteroidetes	dn044
+Bacteroides thetaiotaomicron 633	Bacteroidetes	dn045
+Bacteroides thetaiotaomicron 7330	Bacteroidetes	dn046
+Bacteroides thetaiotaomicron 7853	Bacteroidetes	dn047
+Bacteroides thetaiotaomicron 8702	Bacteroidetes	dn048
+Bacteroides thetaiotaomicron 8713	Bacteroidetes	dn049
+Bacteroides thetaiotaomicron 8736	Bacteroidetes	dn050
+Bacteroides thetaiotaomicron 940	Bacteroidetes	dn051
+Bacteroides thetaiotaomicron VPI 5482	Bacteroidetes	dn052
+Bacteroides thetaiotaomicron wh302	Bacteroidetes	dn053
+Bacteroides thetaiotaomicron wh305	Bacteroidetes	dn054
+Bacteroides uniformis ATCC 8492	Bacteroidetes	dn055
+Bacteroides vulgatus ATCC 8482	Bacteroidetes	dn056
+Bacteroides vulgatus CL09T03C04 BEI HM-720	Bacteroidetes	dn057
+Bacteroides xylanoisolvens XB1A DSMZ 18836	Bacteroidetes	dn058
+Bifidobacterium adolescentis L2-32	Actinobacteria	dn059
+Bifidobacterium bifidum DSMZ 20456	Actinobacteria	dn060
+Bifidobacterium breve DSMZ 20213	Actinobacteria	dn061
+Bifidobacterium breve UCC2003	Actinobacteria	dn062
+Bifidobacterium catenulatum DSMZ 16992	Actinobacteria	dn063
+Bifidobacterium dentium ATCC 27678	Actinobacteria	dn064
+Bifidobacterium gallicum DSMZ 20093	Actinobacteria	dn065
+Bifidobacterium infantis ATCC 15697	Actinobacteria	dn066
+Bifidobacterium longum NCC 2705	Actinobacteria	dn067
+Bifidobacterium longum reuter ATCC 55813	Actinobacteria	dn068
+Bifidobacterium pseudocatenulatum DSMZ 20438	Actinobacteria	dn069
+Blautia hansenii DSMZ 20583	Firmicutes	dn070
+Blautia producta DMSZ 2950	Firmicutes	dn071
+Catenibacterium mitsuokai DSMZ 15897	Firmicutes	dn072
+Citrobacter portucalensis 30_2  BEI HM-34	Proteobacteria	dn073
+Citrobacter portucalensis 4_7_47CFAA BEI HM-299	Proteobacteria	dn074
+Citrobacter youngae ATCC 29220	Proteobacteria	dn075
+Clostridiales sp. 3_1_39B/D5 BEI HM-84	Firmicutes	dn076
+Clostridium aldenense WAL-18727 BEI HM-307	Firmicutes	dn077
+Clostridium asparagiforme DSMZ 15981	Firmicutes	dn078
+Clostridium bolteae ATCC BAA-613	Firmicutes	dn079
+Clostridium bolteae CC43_001B BEI HM-1038	Firmicutes	dn080
+Clostridium bolteae WAL-14578 BEI HM-318	Firmicutes	dn081
+Clostridium cadaveris CC40_001C BEI HM-1039	Firmicutes	dn082
+Clostridium cadaveris CC44_001G BEI HM-1040	Firmicutes	dn083
+Clostridium cadaveris CC88A BEI HM-1041	Firmicutes	dn084
+Clostridium citroniae WAL-17108 BEI HM-315	Firmicutes	dn085
+Clostridium clostridioforme 2_1_49FAA BEI HM-306	Firmicutes	dn086
+Clostridium clostridioforme WAL-7855 BEI HM-317	Firmicutes	dn087
+Clostridium hathewayi WAL-18680 BEI HM-308	Firmicutes	dn088
+Clostridium hylemonae DSMZ 15053	Firmicutes	dn089
+Clostridium leptum DSMZ 753	Firmicutes	dn090
+Clostridium perfringens WAL-14572 BEI HM-310	Firmicutes	dn091
+Clostridium saccharolyticum WM1 DSMZ 2544	Firmicutes	dn092
+Clostridium scindens ATCC 35704	Firmicutes	dn093
+Clostridium sporogenes ATCC 15579	Firmicutes	dn094
+Clostridium symbiosum BEI HM-309	Firmicutes	dn095
+Clostridium symbiosum WAL 14673 BEI HM-319	Firmicutes	dn096
+Collinsella aerofaciens ATCC 25986	Actinobacteria	dn097
+Coprococcus comes ATCC 27758	Firmicutes	dn098
+Coprococcus sp. HPP0048 BEI HM-794	Firmicutes	dn099
+Desulfovibrio piger ATCC 29098 M1	Proteobacteria	dn100
+Desulfovibrio piger ATCC 29098 M2	Proteobacteria	dn101
+Dorea formicigenerans ATCC 27755	Firmicutes	dn102
+Dorea longicatena DSMZ 13814	Firmicutes	dn103
+Eggerthella lenta DSMZ 2243	Actinobacteria	dn104
+Enterobacter cancerogenus ATCC 35316	Proteobacteria	dn105
+Enterococcus faecalis TX1322 BEI HM-202	Firmicutes	dn106
+Enterococcus faecalis TX2137 BEI HM-432	Firmicutes	dn107
+Enterococcus faecium ERV165 BEI HM-970	Firmicutes	dn108
+Enterococcus faecium TX1330 BEI HM-204	Firmicutes	dn109
+Escherichia coli MG-1655 ATCC 7000926	Proteobacteria	dn110
+Eubacterium eligens DSMZ 3376	Firmicutes	dn111
+Eubacterium rectale ATCC 33656	Firmicutes	dn112
+Eubacterium siraeum DSMZ 15702	Firmicutes	dn113
+Eubacterium ventriosum DSMZ 3988	Firmicutes	dn114
+Facklamia sp. HGF4 BEI HM-289	Firmicutes	dn115
+Fusobacterium nucleatum CTI-2 BEI HM-993	Fusobacteria	dn116
+Fusobacterium nucleatum subsp. animalis D11 BEI HM-75	Fusobacteria	dn117
+Fusobacterium ulcerans 12-1B BEI HM-57	Fusobacteria	dn118
+Granulicatella adiacens DSMZ 9848	Firmicutes	dn119
+Holdemanella biformis DSMZ 3989	Firmicutes	dn120
+Holdemania filiformis DSMZ 12042	Firmicutes	dn121
+Hungatella hathewayi DSM 13479	Firmicutes	dn122
+Intestinibacter bartlettii DSM 16795	Firmicutes	dn123
+Lachnospiraceae sp. 1_4_56FAA BEI HM-161	Firmicutes	dn124
+Lachnospiraceae sp. 2_1_58FAA BEI HM-154	Firmicutes	dn125
+Lactobacillus paracasei subspecies paracasei ATCC BAA-52	Firmicutes	dn126
+Lactobacillus plantarum ATCC BAA-793	Firmicutes	dn127
+Lactobacillus reuteri CF48-3A BEI HM-102	Firmicutes	dn128
+Lactobacillus reuteri F275 ATCC 23272	Firmicutes	dn129
+Lactobacillus rhamnosus GG ATCC 53103	Firmicutes	dn130
+Lactobacillus rhamnosus LMS2-1 BEI HM-106	Firmicutes	dn131
+Lactobacillus ruminis ATCC 25644	Firmicutes	dn132
+Lactococcus lactis DSMZ 20729	Firmicutes	dn133
+Marvinbryantia formatexigens DSMZ 14469	Firmicutes	dn134
+Mitsuokella multacida DSMZ 20544	Firmicutes	dn135
+Parabacteroides distasonis ATCC 8503	Bacteroidetes	dn136
+Parabacteroides goldsteinii CC87F BEI HM-1050	Bacteroidetes	dn137
+Parabacteroides johnsonii DSMZ 18315	Bacteroidetes	dn138
+Parabacteroides merdae ATCC 43184	Bacteroidetes	dn139
+Parabacteroides merdae CL09T00C40 BEI HM-729	Bacteroidetes	dn140
+Parabacteroides sp. D13 BEI HM-77	Bacteroidetes	dn141
+Peptostreptococcus sp. CC14N BEI HM-1051	Firmicutes	dn142
+Proteus penneri ATCC 35198	Proteobacteria	dn143
+Providencia rustigianii DSM 4541	Proteobacteria	dn144
+Providencia stuartii ATCC 25827	Proteobacteria	dn145
+Ruminococcus bromii ATCC 27255	Firmicutes	dn146
+Ruminococcus gnavus ATCC 29149	Firmicutes	dn147
+Ruminococcus gnavus CC55_001C BEI HM-1056	Firmicutes	dn148
+Ruminococcus lactaris CC59_002D BEI HM-1057	Firmicutes	dn149
+Ruminococcus torques ATCC 27756	Firmicutes	dn150
+Slackia exigua ATCC 700122	Actinobacteria	dn151
+Streptococcus parasanguinis CC87K BEI HM-1060	Firmicutes	dn152
+Streptococcus thermophilus LMD-9 ATCC 19258	Firmicutes	dn153
+Subdoligranulum variabile DSMZ 15176	Firmicutes	dn154
+Tyzzerella nexilis DSM 1787	Firmicutes	dn155
+Varibaculum cambriense AB12_3 BEI HM-1190	Actinobacteria	dn156
+Veillonella sp. HPA0037 BEI HM-850	Firmicutes	dn157
