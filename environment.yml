@@ -11,3 +11,7 @@ dependencies:
   - seaborn=0.10.0
   - statsmodels=0.10.1
   - xlrd=1.2.0
+  - pip
+  - pip:
+    - pymzml==2.4.7
+    - scikit-bio==0.5.6

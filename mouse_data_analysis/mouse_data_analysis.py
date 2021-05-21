@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from collections import defaultdict
+import functools
 import os
 
 class MouseDataAnalysis:
@@ -164,6 +165,13 @@ class MouseDataAnalysis:
             if len(dnames) == 1:
                 continue
 
+            # Certain compounds have both peaks detected in the original submission dataset,
+            # but only the second peak detected in the new revision data set.
+            # Here we pick the second dname after combining the two columns to avoid
+            # duplicate compounds when concatentating the two datasets later on.
+            if cpd in ['2-HYDROXYPHENYLACETIC ACID.c18positive', '3-HYDROXYISOVALERIC ACID.c18negative', 'N-BUTYRYLGLYCINE.c18negative', 'TAUROURSODEOXYCHOLIC ACID.hilicpositive']:
+                dnames = list(reversed(dnames))
+
             #print(f'Summing peaks for {cpd} with dnames {dnames}')
 
             # Place the summed raw ion counts under the first dname column
@@ -223,6 +231,7 @@ class MouseDataAnalysis:
         for idx, run in filtered_runs.iterrows():
             exp = run['experiment']
             sample_type = run['sample_type']
+            collection_time = run['collection_time']
             chromatography = run['chromatography']
             ionization = run['ionization']
 
@@ -230,6 +239,7 @@ class MouseDataAnalysis:
 
             #print()
             #print('starting')
+            #print(f"exp={exp}")
             #print(f"full_filepath={full_filepath}")
             #print(f"sheetname={run['sheetname']}")
             #print(f"sample_type={run['sample_type']}")
@@ -239,17 +249,21 @@ class MouseDataAnalysis:
             exp_selection = {
                 'experiment': exp,
                 'sample_type': sample_type,
+                'collection_time': collection_time,
                 'chromatography': chromatography,
                 'ionization': ionization
             }
 
             cur_msdata, cur_misses = \
-                self.join_msdialdf_sampledb(pd.read_excel(io=full_filepath, sheet_name=run['sheetname']),
+                self.join_msdialdf_sampledb(pd.read_excel(io=full_filepath, sheet_name=run['sheetname'], engine='openpyxl'),
                                             sample_db,
                                             exp_selection)
 
             msdata_dfs.append(cur_msdata)
             misses += cur_misses
+
+        if len(msdata_dfs) == 0:
+            return (pd.DataFrame(), misses)
 
         return (pd.concat(msdata_dfs, sort=True), misses)
 
@@ -279,9 +293,10 @@ class MouseDataAnalysis:
         non_community_db = self.non_community_db.copy(deep=True)
         non_community_db['mode'] = self.non_community_db['chromatography'] + self.non_community_db['ionization']
 
-        joined_data = c18pos_msdata \
-            .join(c18neg_msdata, how='outer') \
-            .join(hilicpos_msdata, how='outer') \
+        all_msdata = [c18pos_msdata, c18neg_msdata, hilicpos_msdata]
+
+        joined_data = functools.reduce(lambda a,b: a.join(b, how='outer'), all_msdata)
+        joined_data = joined_data \
             .join(non_community_db[['experiment', 'sample_type', 'colonization', 'sample_id']], how='inner')
 
         joined_data.index.name='run_id'
@@ -306,6 +321,8 @@ class MouseDataAnalysis:
             'c18negative',
             'hilicpositive'
         ]
+
+        metadata_columns = [col for col in metadata_columns if col in sample_data.columns]
 
         metadata = sample_data[metadata_columns]
         sample_data = sample_data.drop(columns=metadata_columns)
@@ -338,9 +355,10 @@ class MouseDataAnalysis:
         community_db = self.community_db.copy(deep=True)
         community_db['mode'] = self.community_db['chromatography'] + self.community_db['ionization']
 
-        joined_data = c18pos_msdata \
-            .join(c18neg_msdata, how='outer') \
-            .join(hilicpos_msdata, how='outer') \
+        all_msdata = [c18pos_msdata, c18neg_msdata, hilicpos_msdata]
+
+        joined_data = functools.reduce(lambda a,b: a.join(b, how='outer'), all_msdata)
+        joined_data = joined_data \
             .join(community_db[['experiment', 'sample_type', 'colonization', 'sample_id', 'mouse_id', 'tissue_measurement']], how='inner')
 
         joined_data.index.name='run_id'
@@ -367,6 +385,8 @@ class MouseDataAnalysis:
             'c18negative',
             'hilicpositive'
         ]
+
+        metadata_columns = [col for col in metadata_columns if col in sample_data.columns]
 
         metadata = sample_data[metadata_columns]
         sample_data = sample_data.drop(columns=metadata_columns)
@@ -547,7 +567,7 @@ class MouseDataAnalysis:
         return matrix.drop(columns=dnames)
 
 
-    def collapse_modes(self, fold_change_matrix, mode_picker):
+    def collapse_modes(self, fold_change_matrix, mode_picker, strict_mode=False):
         """Collapses the 3 mode columns for each metabolite
         (.c18positive, .c18negative, .hilicpositive) into a single column
         by either picking a single mode, or averaging the values between multiple modes
@@ -585,14 +605,28 @@ class MouseDataAnalysis:
 
             #print(f"Features: {features}; mode prefs: {mode_prefs}")
 
-            feature_colnames = list(map(lambda feature: get_colname(cpd, feature), features))
-            preferred_colnames = list(map(lambda pref: get_colname(cpd, pref), mode_prefs))
+            feature_colnames = [get_colname(cpd, feature) for feature in features]
+            preferred_colnames = [get_colname(cpd, pref) for pref in mode_prefs]
             remaining_colnames = [get_colname(cpd, feature) for feature in (set(features) - set(mode_prefs))]
 
             # If compounds have been removed from the fold change matrix as per
             # METABOLITES_TO_REMOVE, then skip over these missing columns here
-            if (len(set(feature_colnames) & set(fold_change_matrix.columns)) < len(feature_colnames)):
-                continue
+            if strict_mode:
+                if len(set(feature_colnames) & set(fold_change_matrix.columns)) < len(feature_colnames):
+                    #print(f'Skipping {cpd} as not all features were found in the fold change matrix')
+                    continue
+            else:
+                feature_colnames = list(set(feature_colnames) & set(fold_change_matrix.columns))
+                preferred_colnames = list(set(preferred_colnames) & set(fold_change_matrix.columns))
+                remaining_colnames = list(set(feature_colnames) - set(preferred_colnames))
+
+                if len(feature_colnames) == 0:
+                    #print(f'Skipping {cpd} as none of the features were found in the fold change matrix')
+                    continue
+
+                if len(preferred_colnames) == 0:
+                    #print(f'No preferred modes for {cpd} were found. Using the feature columns instead.')
+                    preferred_colnames = feature_colnames
 
             preferred_data = fold_change_matrix[preferred_colnames]
 
@@ -617,7 +651,8 @@ class MouseDataAnalysis:
     def run(self,
             collapse_mouse_ids=False,
             output_cpd_names=False,
-            remove_dnames=False):
+            remove_dnames=False,
+            exps=[]):
         # Dictionary of dnames to compound names
         # (dnames with multiple compounds concatenated together)
         dname_cpd_map = self.cpd_library \
@@ -634,6 +669,10 @@ class MouseDataAnalysis:
 
         raw_ion_counts_matrix = pd.concat([non_community_matrix, community_matrix], sort=True).sort_index()
         all_metadata = pd.concat([non_community_metadata, community_metadata], sort=False).sort_index()
+
+        if len(exps) > 0:
+            all_metadata = all_metadata[all_metadata['experiment'].isin(exps)]
+            raw_ion_counts_matrix = raw_ion_counts_matrix.loc[all_metadata.index].dropna(axis=1, how='all')
 
         raw_ion_counts_matrix = self.sum_peaks(raw_ion_counts_matrix, dname_cpd_map)
         istd_corrected_matrix = self.normalize_by_istd(raw_ion_counts_matrix, all_metadata, dname_cpd_map, cpd_dname_map)
